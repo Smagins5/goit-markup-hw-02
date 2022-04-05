@@ -1,3 +1,94 @@
 :root {
-    --
+    --color-logo: #2196F3
+    --color-text-body: #212121
+    --color-white: #ffffff
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    text-decoration: none;
+}
+.logo-one {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo-two {
+    color: #212121;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.site-nav a {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none; 
+}
+.site-nav {
+    list-style-type: none;
+}
+.site-nav a:hover {
+    color: #2196F3;
+}
+.info-tel {
+    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+.info-tel:hover {
+    color: #2196F3;
+}
+.section-one > .hero {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+}
+.section-one {
+    background-color: #2F303A ;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+}
+.section-one > .button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
+.section-one button {
+    color: #FFFFFF;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: #2196F3;
+    border-radius: 4px;
 }
