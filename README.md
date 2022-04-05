@@ -13,3 +13,4 @@ Weight 500, Medium
 Weight 900, Black
 Weight 700, Bold
 Weight 400, Regular
+=Oleo+Script&family

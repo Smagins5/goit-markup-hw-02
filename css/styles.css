@@ -3,12 +3,13 @@
     --secondary-text-color: #212121;
     --color-logo: #2196F3;
     --white-color: #ffffff;
+    --cursor-default: default;
 
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif, 'Arial', sans-serif;
     color: var(--primary-text-color);
-    background-color: #ffffff;
+    background-color: var(--white-color);
                             
 }
 .list {
@@ -18,6 +19,7 @@ body {
                                     /* Logo */
 .logo-head {
     text-decoration: none;
+    cursor: var(--cursor-default)
 }
 
 .logo-one {
@@ -44,6 +46,7 @@ body {
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-decoration: none;
+    cursor: var(--cursor-default)
 }
 .site-nav .link:hover, 
 .site-nav .link:focus {
@@ -60,10 +63,12 @@ body {
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-decoration: none;
+    cursor: var(--cursor-default)
 }
 .info .item:hover, 
 .info .item:focus {
     color: var(--color-logo);
+    
 }
                                 /* Servis section */
 .service {
@@ -88,16 +93,11 @@ body {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 .service button {
     color: var(--white-color);
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
     background: var(--color-logo);
-    border-radius: 4px;
 }
 .service button:hover,
 .service button:focus {
@@ -161,10 +161,7 @@ body {
                                 /* Footer section */
 .logo-footer {
     text-decoration: none;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 2157px;
+    cursor: var(--cursor-default)
 }
 .logo-white {
     color: var(--white-color);
@@ -197,6 +194,7 @@ body {
 .address a {
     text-decoration: none;
     font-style: normal;
+    cursor: var(--cursor-default)
 }
 .address a:hover,
 .address a:focus {
@@ -214,6 +212,7 @@ font-size: 16px;
 line-height: 1.6;
 letter-spacing: 0.03em;
 background-color: #F5F4FA;
+cursor: pointer;
 }
 .list-button .current {
     color: var(--white-color);
@@ -223,7 +222,7 @@ background-color: #F5F4FA;
 .list-button button:focus {
     color: var(--white-color);
     background-color: var(--color-logo);
-}
+    }
                                         /* Портфолио */
 .examples-hero {
     color: var(--secondary-text-color);
